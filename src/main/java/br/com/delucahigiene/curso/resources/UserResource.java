@@ -1,6 +1,4 @@
 package br.com.delucahigiene.curso.resources;
-
-<<<<<<< HEAD
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,9 +17,6 @@ public class UserResource {
 		User user2 = new User(2L, "Juliana", "juliana@gmail.com", "99945673", "juju123*");
 		return ResponseEntity.ok().body(user2);
 	}
-
-=======
-public class UserResource {
-
->>>>>>> 17ffaeea75313108c5573109545cb0c21da35409
+	
 }
+
